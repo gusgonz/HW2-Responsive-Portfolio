@@ -1,5 +1,7 @@
 body {
     background-image: url("../Images/bg.png");
+    display: flex;
+    flex-direction: column;
 }
 
 html,
@@ -48,7 +50,8 @@ ul li a {
     background-color: white;
     max-width: 720px;
     border: solid 1px #dddddd;
-    margin-top: 30px;    
+    margin-top: 30px;   
+    margin-bottom: 20px; 
 }
 
 #title {
@@ -69,8 +72,8 @@ ul li a {
     height: 50px;
     background: #666666;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    margin-top: auto ;
+    flex-shrink: 0;
 }
 
 span {
