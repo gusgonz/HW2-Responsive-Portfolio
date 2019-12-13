@@ -122,4 +122,36 @@ span {
     margin: 6px 10px;
 }
 
+.items {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.itemtext {
+    position: absolute;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    left: 50%;
+    margin-left: -100px;
+    bottom: 15px;
+    background: #4aaaa5;
+    color: white;
+    padding-top: 5px;
     
+}
+
+#item1 {
+    max-height: 200px;
+    max-width: 200px;
+}  
+
+#item2 {
+    max-height: 200px;
+    max-width: 200px;
+}  
