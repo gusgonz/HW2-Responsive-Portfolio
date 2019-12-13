@@ -2,6 +2,11 @@ body {
     background-image: url("../Images/bg.png");
 }
 
+html,
+body {
+  height: 100%;
+}
+
 #navibar {
     border-bottom: 1px solid #cccccc;
 }
@@ -63,13 +68,11 @@ ul li a {
     border-top: 8px solid #4aaaa5;
     height: 50px;
     background: #666666;
-    position: absolute;
     text-align: center;
+    position: fixed;
     bottom: 0;
-   
 }
 
 span {
-    
     padding-top: 20px;
 } 
